@@ -13,7 +13,7 @@ public class Main {
             cardDeck = new CardDeck();
         else
             cardDeck = new CardDeck(args);
-        
+
         GameService gameService = new GameService();
         gameService.startGame(cardDeck);
 
